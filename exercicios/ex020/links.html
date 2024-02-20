@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            # = id 
+           . = class
+           : = pseudo-class
+           :: = pseudo-element
+           > children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(216, 127, 145);
+            text-decoration:none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(110, 21, 39);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(253, 241, 80);
+        }
+
+        .especial {
+            background-color: rgba(233, 150, 122, 0.379);
+        }
+
+        .especial::before {
+            content: '↣';
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .especial::after {
+            content:'↢' ;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: rgb(222, 130, 130);
+        }
+
+        p {
+            font: normal bold 1em Arial;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial" >Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do Curso em Video</a></li>
+    </ul>
+    <h1>Conteúdo Especial</h1>
+    <div>
+        <img src="cliqueaqui.png" alt="cliqueaqui" width="100" ></img>
+        <P>SUPRESAAA!!!</P>
+    </div>
+    <p>Veja o conteúdo oculto aparecer!</p>
+</body>
+</html>
