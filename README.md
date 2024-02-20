@@ -1,2 +1,4 @@
-# 01_html
+ # 01_html
  Curso de HTML5 e CSS3 do Cursoemvideo
+
+ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
