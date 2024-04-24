@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.amarelo {
+    background-color: yellow;
+    color: blue;
+    border: 5px dotted red;
+    font-size: 12px;
+}
+
+.vermelho {
+    background-color: red;
+    color: white;
+    border: 5px dotted yellow;
+    font-size: 22px;
+}
+
+#especial {
+    background-color: blue;
+    color: yellow;
+    border: 5px solid rgb(46, 223, 46);
+    border-radius: 20px 0px 20px 0px;
+}
