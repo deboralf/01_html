@@ -1,0 +1,97 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+h1, #meio{background-color: rgb(200, 200, 200);}
+
+.lucida{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    background-color: black;
+    padding: 10px 0px;
+}
+
+h1{
+    margin: 0px;
+    padding: 20px;
+}
+
+h2{margin: 10px 0px;}
+
+#navbar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    transition-duration: 1s;
+}
+#navbar a:hover{
+    background-color: white;
+    color: black;
+}
+#navbar a .especial{
+    font-size: 10px;
+    color: rgb(125, 125, 125);
+    display: none;
+}
+#navbar a:hover .especial{display: block;}
+
+#meio{
+    padding: 20px 10px;
+    margin: 10px;
+}
+
+#lista-surpresas{
+    background-color: rgb(120, 0, 0);
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.surp{
+    border: 1px solid white;
+    width: 200px;
+    height: 275px;
+    display: inline-block;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.surp img{
+    width: 100%;
+    display: none;
+}
+.surp:hover{
+    color: black;
+    background-color: white;
+}
+.surp:hover img{display: block;}
+.surp:hover ~ #desconto span{display: block;}
+
+#desconto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#desconto span{display: none;}
+
+#quem-somos p{text-align: justify;}
+
+#rodape{padding: 20px 0px;}

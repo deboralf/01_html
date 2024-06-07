@@ -1,0 +1,39 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pai {
+    border: 3px solid black;
+    margin: 40px auto;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.filho {
+    border: 2px solid black;
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.filho:hover {
+    background-color: yellow;
+}
+
+#pai-1 > .filho-1:hover ~ .filho-5 {
+    background-color: red;
+}
+
+#pai-2  > .filho-5:hover ~ .filho-1 {
+    background-color: red;
+}
+
+#pai-3  > .filho:hover ~ * {
+    background-color: red;
+}

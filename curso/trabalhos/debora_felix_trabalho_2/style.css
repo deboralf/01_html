@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+
+#ceu {
+    background-color: cyan;
+    height: 77vh;
+}
+
+#chao {
+    background-color: rgb(106, 48, 20);
+    height: 23vh;
+}
+
+img.sol {
+    width: 180px;
+}
+
+img.nuvem {
+    width: 80px;
+    padding-right: 200px;
+}
+
+#nuvem-8, #nuvem-9 {
+    padding-right: 300px;
+}
+
+.arvore-1 {
+    width: 100px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+
+.arvore-2 {
+    width: 150px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+
+.arvore-4 {
+    width: 175px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+.arvore-7 {
+    width: 160px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+.arvore-10 {
+    width: 80px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+.nome {
+    color: white;
+    padding-left: 10px;
+    padding-top: 140px;
+}

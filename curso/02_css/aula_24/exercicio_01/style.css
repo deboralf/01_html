@@ -1,0 +1,58 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+.div1 {
+    background-color: red;
+    overflow: visible;
+}
+
+.div2 {
+    background-color: green;
+    overflow: auto;
+}
+
+.div3 {
+    background-color: blue;
+    overflow: scroll;
+}
+
+.div4 {
+    background-color: pink;
+    margin-bottom: 200px;  
+}
+
+.div5 {
+    background-color: greenyellow;
+    overflow: auto;
+}
+
+.div6 {
+    background-color: lightblue;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.div7 {
+    background-color: orange;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.div8 {
+    background-color: purple;
+    overflow: hidden;
+}
+
+
+

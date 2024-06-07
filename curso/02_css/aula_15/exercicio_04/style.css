@@ -1,6 +1,6 @@
 ol {
     border: 5px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 150px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -21,9 +21,9 @@ ol {
 }
 
 #borda {
-    border-top-right-radius: 5px;
+    border-top-right-radius: 15px;
 }
 
 #baixo {
-    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 15px;
 }

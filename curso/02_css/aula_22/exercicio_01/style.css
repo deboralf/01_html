@@ -1,0 +1,25 @@
+/*p {
+    resize: both;
+
+    width: 200px;
+    height: 100px;
+
+    min-width: 100px;
+    max-width: 300px;
+
+    min-height: 75px;
+    max-height: 200px;
+}*/
+
+#msg-5 {
+    resize: horizontal;
+}
+
+#msg-6 {
+    resize: vertical;
+}
+
+#msg-7 {
+    resize: none;
+}
+

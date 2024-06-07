@@ -1,0 +1,74 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    margin: 20px auto;
+}
+
+#div-1{
+    background: radial-gradient(red, yellow, blue);
+}
+
+#div-2{
+    background: radial-gradient(circle at bottom left,red, yellow, blue);
+}
+
+#div-3{
+    background: radial-gradient(circle at top right,red, yellow, blue);
+}
+
+#div-4{
+    background: radial-gradient(circle at 25% 25%,red, black, white);
+}
+
+#div-5{
+    background: radial-gradient(circle at 75% 50%,red, black, white);
+}
+
+#div-6{
+    background: radial-gradient(ellipse at center left, red, black, white);
+    width: unset;
+    height: 150px;
+}
+
+#div-7{
+    background: radial-gradient(closest-side, red, black, white);
+}
+
+#div-8{
+    background: radial-gradient(closest-corner, red, black, white);
+}
+
+#div-9{
+    background: radial-gradient(farthest-side, red, black, white);
+}
+
+#div-10{
+    background: radial-gradient(farthest-corner, red, black, white);
+}
+
+#div-11{
+    background:
+    radial-gradient(circle at 25% 25%, rgba(255, 0, 0, 0.346), rgba(0, 0, 0, 0.308)),
+    radial-gradient(circle at 75% 75%, rgb(0, 255, 0), cyan);
+}
+
+#div-12{
+    background:
+    linear-gradient(to right, rgba(255, 0, 0, 0.465), rgba(255, 255, 255, 0.435)),
+    radial-gradient(circle at 75% 75%, black, rgb(0, 255, 0));
+}
+
+#div-13{
+    background: radial-gradient(red 0% 33.3%, green 33.3% 66.6%, blue 66.6% 100%)
+}
+
+#div-14{
+    border-radius: 50%;
+    border: none;
+    background: repeating-radial-gradient(red 10%, blue 20%);
+}

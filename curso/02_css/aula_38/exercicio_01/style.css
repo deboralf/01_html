@@ -1,0 +1,114 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+div {
+    box-sizing: border-box;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 40px;
+    position: relative;
+}
+
+#div-1 {
+    animation: mover;
+    animation-duration: 2s;
+}
+
+#div-2 {
+    animation: mover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#div-3 {
+    animation: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#div-4 {
+    animation: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#div-5 {
+    animation: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+#div-6 {
+    animation: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+}
+
+#div-7 {
+    animation:
+    mover 2s linear 0s infinite alternate,
+    girar 2s linear 1s infinite alternate;
+}
+
+#div-8 {
+    animation: teste;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes mover {
+    from {
+        left: 0px;
+        background-color: red;
+    }
+
+    to {
+        left: 200px;
+        background-color: yellow;
+    }
+}
+
+@keyframes girar {
+    from {transform: rotate(0deg);}
+
+    to {transform: rotate(360deg);}
+}
+
+@keyframes teste {
+    0% {
+        background-color: blueviolet;
+        transform: rotate(0deg)
+    }
+    25% {
+        background-color: lightseagreen;
+        transform: rotate(45deg)
+    }
+    50% {
+        background-color: yellow;
+        transform: rotate(90deg)
+    }
+    75% {
+        background-color: red;
+        transform: rotate(180deg)
+    }
+    100% {
+        background-color: lawngreen;
+    }
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:wght@100..900&display=swap');
+
+h1 {
+    text-align: center;
+}
+
+div {
+    border: 3px solid black;
+    margin: 40px auto;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+.verde {background-color: lightgreen;}
+.azul {background-color: lightblue;}
+.pink {background-color: lightcoral;}
+
+.div1 {font-weight: 100;}
+.div2 {font-weight: 200;}
+.div3 {font-weight: 300;}
+.div4 {font-weight: 400;}
+.div5 {font-weight: 500;}
+.div6 {font-weight: 600;}
+.div7 {font-weight: 700;}
+.div8 {font-weight: 800;}
+.div9 {font-weight: 900;}
+
+.div10 {font-style: normal;}
+.div11 {font-style: italic;}
+.div12 {font-style: oblique 14deg;}
+
+.div13 {text-transform: none;}
+.div14 {text-transform: lowercase;}
+.div15 {text-transform: uppercase;}
+.div16 {text-transform: capitalize;}
+
+
+

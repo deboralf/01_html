@@ -1,0 +1,55 @@
+body {
+    min-height: 100vh;
+
+    background-image: url('background.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: fantasy;
+    text-align: center;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+.filho {
+    width: 50vh;
+    background-color: rgba(255, 255, 255, 0.234);
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 30px;
+    transition-duration: 1s;
+}
+
+.filho:last-child{color: white;}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 175px 200px;
+    justify-content: center;
+}
+
+
+.filho:hover {
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 70px;
+    color: white;
+}

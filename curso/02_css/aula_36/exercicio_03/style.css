@@ -1,0 +1,115 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+.pai {
+    background-color: lightgreen;
+    width: 400px;
+    min-height: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    
+    display: flex;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.filha {
+    background-color: lightsalmon;
+    border: 2px solid black;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+#pai-1 {
+    align-items: center;
+    padding: 80px 0px;
+    flex-wrap: wrap;
+}
+#pai-1 .filha-1 {
+    background-color: red;
+    order: 1;
+}
+#pai-1 .filha-5 {
+    background-color: yellow;
+    order: -1;
+}
+
+#pai-2 {
+    width: unset;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#pai-2 .filha {width: 100px;}
+#pai-2 .filha-5 {
+    flex-grow: 2;
+    background-color: yellow;
+}
+#pai-2 .filha-6 {
+    flex-grow:1;
+    background-color: red;
+}
+
+#pai-3 {
+    width: unset;
+    justify-content: center;
+}
+#pai-3 .filha {width: 150px;}
+#pai-3 .filha-1 {
+    flex-shrink: 1;
+}
+#pai-3 .filha-2 {
+    flex-shrink: 2;
+    background-color: purple;
+}
+#pai-3 .filha-3 {
+    flex-shrink: 3;
+    background-color: yellow;
+}
+#pai-3 .filha-4 {
+    flex-shrink: 4;
+    background-color: green;
+}
+#pai-3 .filha-5 {
+    flex-shrink: 5;
+    background-color: orange;
+}
+
+#pai-4 {
+    width: unset;
+    justify-content: center;
+}
+#pai-4 .filha {width: 150px;}
+#pai-4 .filha-3 {
+    flex-basis: content;
+    background-color: yellow;
+}
+
+#pai-5 {
+    width: unset;
+    justify-content: center;
+}
+#pai-5 .filha {width: 150px;}
+#pai-5 .filha-3 {
+    flex-basis: 250px;
+    background-color: yellow;
+}
+
+#pai-6 .filha {
+    width: 80px;
+}
+#pai-6 .filha-3 {
+    align-self:flex-end;
+    background-color: yellow;
+}
+
+
+
+

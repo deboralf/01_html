@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+.primeiro {
+    background-color: aquamarine;
+}
+
+.segundo {
+    background-color: rebeccapurple;
+    color: violet;
+    border: 3px solid red;
+}
+
+.terceiro {
+    background-color: coral;
+    border: 3px dotted aquamarine;
+    border-radius: 10px;
+}
+

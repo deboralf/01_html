@@ -1,0 +1,15 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div-1 {
+    background-color:aquamarine;
+    padding: 60px 50px 70px 70px;
+    margin: 0px;
+}
+
+.div-2 {
+    background-color:rgb(141, 253, 30);
+    padding: 3px 5px;
+    margin: 80px 60px;
+}

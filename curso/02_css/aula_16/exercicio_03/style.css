@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primeiro {
+    font-size: 10px;
+    color: red;
+}
+
+.segundo {
+    font-size: 24px;
+    color: green;
+}

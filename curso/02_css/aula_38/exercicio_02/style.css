@@ -1,0 +1,136 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+header {padding: 5px;}
+footer {padding: 20px;}
+
+h1 {
+    background-color: lightgray;
+    padding: 25px;
+    padding-bottom: 40px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.101);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+menu {
+    background-color: black;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+main {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+#promo {
+    background-color: rgb(120, 0, 0);
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 20px 0px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#desconto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#desconto span {display: none;}
+
+menu a .filho {
+     display: none;
+     font-size: 10px;
+     color: rgb(125, 125, 125);
+}
+
+menu a:hover .filho {
+    text-align: center;
+    display: block;
+}
+
+.surpresa {
+    border: 2px solid white;
+    width: 250px;
+    height: 300px;
+    margin: 0px 5px;
+    display: inline-block;
+
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.surpresa img {
+    width: 100%;
+    display: none;
+}
+
+.surpresa:hover {
+    color: black;
+    background-color: white;
+}
+
+.surpresa:hover img {display: block;}
+.surpresa:hover ~ #desconto span {display: block;}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 18px;
+    transition:all 0.5s ease;
+    border-radius: 3px;
+}
+
+.texto {
+    text-align: justify;
+    color: white;
+}
+

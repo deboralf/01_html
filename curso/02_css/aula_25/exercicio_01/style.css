@@ -1,0 +1,82 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+#div1 {
+    background:linear-gradient(to left,yellow,orange, red) ;
+}
+
+#div2 {
+    background:linear-gradient(to right,yellow,orange, red) ;
+}
+
+#div3 {
+    background:linear-gradient(to top, red,orange, yellow) ;
+}
+
+#div4 {
+    background:linear-gradient(to bottom, red, orange, yellow) ;
+}
+
+#div5 {
+    background:linear-gradient(to bottom left, purple,white,blue,red,black) ;
+}
+
+#div6 {
+    background:linear-gradient(to bottom right, purple,white,blue,red,black) ;
+}
+
+#div7 {
+    background:linear-gradient(to top left, purple,white,blue,red,black) ;
+}
+
+#div8 {
+    background:linear-gradient(to top right, purple,white,blue,red,black) ;
+}
+
+#div9 {
+    background:linear-gradient(45deg,black,blue, white) ;
+}
+
+#div10 {
+    background:linear-gradient(315deg,black,blue, white) ;
+}
+
+#div11 {
+    background:linear-gradient(0.25turn,pink,purple,red) ;
+}
+
+#div12 {
+    background:linear-gradient(0.385turn,pink,purple,red) ;
+}
+
+#div13 {
+    background:linear-gradient(90deg, red 0% 33.3%,white 33.3% 66.6%,blue 66.6% 100%) ;
+}
+
+#div14 {
+    background:linear-gradient(red 0% 33.3%,white 33.3% 66.6%,blue 66.6% 100%) ;
+}
+
+#div15 {
+    background:linear-gradient( 225deg, red 0% 33.3%,white 33.3% 66.6%,blue 66.6% 100%) ;
+}
+
+#div16 {
+    background:linear-gradient( to left top, rgba(0, 47, 255, 0.475),rgba(0, 128, 0, 0.524),rgba(255, 17, 0, 0.396) ),  linear-gradient(green ,red, white);
+}
+
+
+
+
+
+
