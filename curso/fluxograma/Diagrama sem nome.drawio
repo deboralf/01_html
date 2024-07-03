@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" modified="2024-06-25T19:07:12.108Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tkQ6ZNFrquBPG51xTYHB" version="24.6.3" type="device">
+  <diagram name="Página-1" id="iRgMBZmcQ8N3P_1VjlgY">
+    <mxGraphModel dx="954" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="-Q0_JGXljB0-hT06e8Z0-1" target="-Q0_JGXljB0-hT06e8Z0-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-1" value="Início" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="250" as="sourcePoint" />
+            <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="-Q0_JGXljB0-hT06e8Z0-11" target="-Q0_JGXljB0-hT06e8Z0-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-11" value="Pegar um escadote" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="-Q0_JGXljB0-hT06e8Z0-13" target="-Q0_JGXljB0-hT06e8Z0-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-13" value="Desligar o quadro de energia" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="-Q0_JGXljB0-hT06e8Z0-15" target="-Q0_JGXljB0-hT06e8Z0-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-15" value="Retirar a lâmpada" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="360" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="-Q0_JGXljB0-hT06e8Z0-18" target="-Q0_JGXljB0-hT06e8Z0-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-18" value="Colocar uma nova lâmpada" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="-Q0_JGXljB0-hT06e8Z0-21" target="-Q0_JGXljB0-hT06e8Z0-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-21" value="Descer do escadote&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="-Q0_JGXljB0-hT06e8Z0-23" target="-Q0_JGXljB0-hT06e8Z0-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-23" value="Ligar o quadro" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="360" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Q0_JGXljB0-hT06e8Z0-25" value="Fim" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="360" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
