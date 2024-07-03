@@ -3,6 +3,8 @@ print ("\n\n")
 resposta = "sim"
 saldo = 12.00
 
+resposta = input (" - A lâmpada está queimada ? ")
+
 condicao_1 = (resposta.lower() == "sim" or resposta.lower() == "s" or resposta.lower() == "y" or resposta.lower() == "yes")
 
 condicao_2 = (resposta.lower() == "sim" or saldo >= 20.00)
