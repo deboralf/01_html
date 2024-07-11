@@ -1,0 +1,37 @@
+from funcoes import *
+import time
+
+limpa()
+
+print("{:=^20}".format("Início") + "\n")
+
+print ("C")
+time.sleep(0.5)
+limpa()
+print ("C0") 
+time.sleep(0.5)
+limpa()
+print ("COD")
+time.sleep(0.5)
+limpa()
+print ("CODE")
+time.sleep(0.5)
+limpa()
+print ("CODEM")
+time.sleep(0.5)
+limpa()
+print ("CODEMA")
+time.sleep(0.5)
+limpa()
+print ("CODEMAS")
+time.sleep(0.5)
+limpa()
+print ("CODEMAST")
+time.sleep(0.5)
+limpa()
+print ("CODEMASTE")
+time.sleep(0.5)
+limpa()
+print ("CODEMASTER")
+
+print("\n" + "{:=^20}".format("Fim"))
