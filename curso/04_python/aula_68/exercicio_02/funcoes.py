@@ -2,16 +2,19 @@ import os
 import time
 
 # Funções
-def tabuada():
-  numero = int(input("- Digite um número para obter a sua tabuada: "))
-  x = 1
+def multiplos():
+  numero = int(input("- Digite um número inteiro: "))
+  x = 0
 
   animar("Aguarde")
 
-  while (x <= 10):
-    resultado = numero * x
-    print (f"{numero:>2} x {x} = {resultado}")
-    x += 1
+  print (f"--- Múltiplos de ({numero}) entre 0 e 100---")
+
+  print()
+
+  while (numero * x <= 100):
+    print (f"{x}")
+    x += numero
 
 # Funções Especiais
 def limpa():

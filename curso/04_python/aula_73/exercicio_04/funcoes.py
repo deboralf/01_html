@@ -2,16 +2,6 @@ import os
 import time
 
 # Funções
-def tabuada():
-  numero = int(input("- Digite um número para obter a sua tabuada: "))
-  x = 1
-
-  animar("Aguarde")
-
-  while (x <= 10):
-    resultado = numero * x
-    print (f"{numero:>2} x {x} = {resultado}")
-    x += 1
 
 # Funções Especiais
 def limpa():
@@ -32,3 +22,6 @@ def animar(frase):
   print(".", end="", flush=True)
   aguarde(tempo)
   limpa()
+
+def carregueEnter():
+  input ("Carregue <enter> para continuar")
